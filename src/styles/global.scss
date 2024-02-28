@@ -1,0 +1,20 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css");
+
+$dark-blue: #001829;
+$light-color: #F8F8EC;
+
+html, body, #root {
+  height: 100%;
+  background-color: $dark-blue;
+}
+
+#root {
+  background: url('../../public/img/background.jpg');
+  opacity: 0.9;
+}
+
+* {
+  font-family: "Open Sans", sans-serif;
+  color: $light-color;
+}

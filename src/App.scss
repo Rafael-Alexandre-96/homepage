@@ -1,0 +1,47 @@
+$light-color: #F8F8EC;
+
+.small {
+  font-size: 18px;
+  font-style: italic;
+}
+
+.medium {
+  font-size: 21px;
+}
+
+.large {
+  font-size: 26px;
+}
+
+.x-large {
+  font-size: 38px;
+  font-weight: bold;
+}
+
+img {
+  height: 300px !important;
+  border-radius: 200px !important;
+  border-color: $light-color;
+}
+
+.links a {
+  font-size: 32px;
+  font-weight: bold;
+}
+
+.links a:hover {
+  filter: brightness(0.5);
+}
+
+.animate {
+  animation: fade-in 3s;
+}
+
+@keyframes fade-in {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 100;
+  }
+}
